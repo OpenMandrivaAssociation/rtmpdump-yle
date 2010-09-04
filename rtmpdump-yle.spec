@@ -45,7 +45,7 @@ RTMPDump-YLE (also known as yle-dl) is a commandline program for
 retrieving video and audio files from Finnish YLE Areena.
 RTMPDump-Yle can also handle live radio and TV broadcasts.
 
-You can download the files for private use only.
+You can download files from YLE Areena for private use only.
 
 %notice
 RTMPE/RTMPS/SWF-verification is not needed for YLE Areena.
