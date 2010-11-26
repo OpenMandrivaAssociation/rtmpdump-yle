@@ -1,6 +1,6 @@
 
 %define name	rtmpdump-yle
-%define version	1.2.4
+%define version	1.3.1
 %define rel	1
 
 %define build_crypto 0
@@ -30,7 +30,6 @@ Release:	%mkrel %rel
 URL:		http://users.tkk.fi/~aajanki/rtmpdump-yle/
 Source:		http://users.tkk.fi/~aajanki/rtmpdump-yle/%name-%version.tar.gz
 Patch0:		rtmpdump-yle-system-json.patch
-Patch1:		rtmpdump-yle-fix-without-crypto.patch
 License:	GPLv2+
 Group:		Video
 BuildRoot:	%{_tmppath}/%{name}-root
