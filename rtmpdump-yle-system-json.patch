@@ -1,0 +1,15 @@
+Index: rtmpdump-yle-1.2.4/Makefile
+===================================================================
+--- rtmpdump-yle-1.2.4/Makefile
++++ rtmpdump-yle-1.2.4/Makefile	2010-09-04 15:49:12.629015946 +0300
+@@ -86,8 +86,8 @@
+ $(LIBRTMP): FORCE
+ 	@cd librtmp; $(MAKE) all
+ 
+-rtmpdump-yle: rtmpdump.o yle.o $(JSONCOBJS)
+-	$(CC) $(LDFLAGS) -o $@$(EXT) $^ $(LIBS)
++rtmpdump-yle: rtmpdump.o yle.o
++	$(CC) $(LDFLAGS) -o $@$(EXT) $^ $(LIBS) -ljson
+ 
+ rtmpsrv: rtmpsrv.o thread.o
+ 	$(CC) $(LDFLAGS) -o $@$(EXT) $@.o thread.o $(SLIBS)
