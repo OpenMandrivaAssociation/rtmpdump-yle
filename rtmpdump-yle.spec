@@ -88,3 +88,18 @@ rm -rf %{buildroot}
 %doc README.fi README.yle ChangeLog* TODO
 %{_bindir}/rtmpdump-yle
 %{_bindir}/yle-dl
+
+
+%changelog
+* Fri Nov 26 2010 Jani Välimaa <wally@mandriva.org> 1.3.1-1mdv2011.0
++ Revision: 601579
+- new version 1.3.1
+- drop upstream applied patch
+
+  + Anssi Hannula <anssi@mandriva.org>
+    - fix grammar in description
+
+* Sat Sep 04 2010 Anssi Hannula <anssi@mandriva.org> 1.2.4-1mdv2011.0
++ Revision: 575853
+- initial Mandriva release
+
