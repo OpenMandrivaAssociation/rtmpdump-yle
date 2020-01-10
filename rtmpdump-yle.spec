@@ -51,7 +51,7 @@ RTMPE/RTMPS/SWF-verification is not needed for YLE Areena.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 
 for file in README* ChangeLog* TODO; do
 	iconv -f ISO-8859-15 -t UTF-8 -o $file.new $file
