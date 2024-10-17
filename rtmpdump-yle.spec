@@ -27,7 +27,7 @@ Summary:	YLE Areena stream downloader
 Name:		%{name}
 Version:	%{version}
 Release:	%mkrel %rel
-URL:		http://users.tkk.fi/~aajanki/rtmpdump-yle/
+URL:		https://users.tkk.fi/~aajanki/rtmpdump-yle/
 Source:		http://users.tkk.fi/~aajanki/rtmpdump-yle/%name-%version.tar.gz
 Patch0:		rtmpdump-yle-system-json.patch
 License:	GPLv2+
